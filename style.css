@@ -7,11 +7,11 @@ marquee{
   font-family: Comic Sans MS;
 }
 
-/*body {
+body {
   height: 100vh; /* For 100% screen height */
   width:  100vw; /* For 100% screen width */
   background-image: linear-gradient(to bottom right, grey, purple);
-}*/
+}
 
 .sidenav {
   height: 100%;

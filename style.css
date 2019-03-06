@@ -1,5 +1,6 @@
 h1{
-  font-family: Times New Roam;
+  font-family: Times New Roman;
+  background-image: linear-gradient(to bottom right, grey, black);
 }
 body {
   height: 100vh; /* For 100% screen height */

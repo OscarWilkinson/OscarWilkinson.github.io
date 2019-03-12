@@ -8,11 +8,13 @@ body {
 marquee{
   font-family: Comic Sans MS;
 }
-a{
-margin-top: 10px;
+a:after {
+    content: '\A';
+    white-space: pre;
 }
-img{
-margin-top: 10px;
+img:after {
+    content: '\A';
+    white-space: pre;
 }
 .sidenav {
   height: 100%;

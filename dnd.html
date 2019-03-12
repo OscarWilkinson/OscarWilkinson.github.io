@@ -17,4 +17,22 @@
     <h1>Character sheet</h1>
     <embed src= "Tortle.pdf" width= "850" height= "850">
     <embed src= "Lizard Form.pdf" width= "850" height= "850">
+    <h1>Spells</h1>
+    <form>
+      Select a spell:
+      <select id="spellsSelect">
+        <option value="apple">Apple</option>
+        <option value="orange">Orange</option>
+        <option value="pineapple">Pineapple</option>
+        <option value="banana">Banana</option>
+      </select>
+    </form>
+    <button type="button" onclick="myFunction()">Load Stats</button>
+    <p id="spells"></p>
+    <script>
+      function spellsFunction() {
+        var x = document.getElementById("spellsSelect").value;
+        document.getElementById("spells").innerHTML = x;
+      }
+    </script>
   </body>

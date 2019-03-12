@@ -2,6 +2,6 @@ body {
   height: 100vh; /* For 100% screen height */
   width:  100vw; /* For 100% screen width */
   font-family: Times New Roman;
-  background-image: Black;
+  background-color: Black;
   color: White
 }
